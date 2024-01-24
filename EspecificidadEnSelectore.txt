@@ -1,0 +1,23 @@
+## IMPORTANCIA
+
+1. Hoja de estilos de agente de usuario (Estilos del navegador)
+2. Declaración normales en hoja de estilos de autor  (Nuentros CSS)
+3.Declaraciones importantes en hojas de estilos de autor (utililizar el  !important)
+
+## ESPECIFICIDAD
+
+Selectores     |   ESPECIFICIDAD
+
+!important     |  1,0,0,0,0
+Inline Styles  |  0,1,0,0,0
+#id            |  0,0,1,0,0
+.class         |  0,0,0,1,0
+tag            |  0,0,0,0,1
+
+https://www.codecaptain.io/tools/css-specificity-calculator
+
+
+## ORDEN
+
+En tus estilos, las declaraciones al final del documento anularán a las que
+sucedan antes en caso de conflicto.
