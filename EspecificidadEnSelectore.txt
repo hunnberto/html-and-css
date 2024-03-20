@@ -2,7 +2,7 @@
 
 1. Hoja de estilos de agente de usuario (Estilos del navegador)
 2. Declaración normales en hoja de estilos de autor  (Nuentros CSS)
-3.Declaraciones importantes en hojas de estilos de autor (utililizar el  !important)
+3. Declaraciones importantes en hojas de estilos de autor (utililizar el  !important)
 
 ## ESPECIFICIDAD
 
@@ -21,3 +21,8 @@ https://www.codecaptain.io/tools/css-specificity-calculator
 
 En tus estilos, las declaraciones al final del documento anularán a las que
 sucedan antes en caso de conflicto.
+
+Los #id son muy especificos deben ser usados para casos exclusivos
+para las cosas comunes se usan clases y tags, por tanto el uso 
+exesivo de #id puede generar errores en la jerarquia de css
+

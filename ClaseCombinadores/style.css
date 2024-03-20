@@ -1,0 +1,35 @@
+/*
+Adjacent sobling - Hermano cercano
+aplica el color rojo a equitetas p cerca a un h2*/
+h2+p {
+    color: red
+}
+
+/*
+General Sibling - Hermano general
+aplica de manera general siempre y cuando esten a la 
+misma altura las etiquetas h2 y p
+*/
+h2~p {
+    background-color: gray
+}
+
+/*
+Child - hijo 
+aplica a todos los hijos directos
+*/
+div>p {
+
+    font-family: cursive;
+}
+
+
+/*
+Decendiente - Decendant
+aplica a todal las etiquedas o clases que tengan una 
+etiqueta p
+*/
+
+section p {
+    color: blue
+}
