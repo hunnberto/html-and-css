@@ -1,0 +1,10 @@
+#### MEDIDAS
+
+
+ABSOLUTAS     |   RELATIVAS
+    px        |       %
+              |       em
+              |  rem (root em)
+              |  max-width / max-heigt
+              |  vw (viewport width)
+              |  vh (viewport heigt)
